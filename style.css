@@ -482,3 +482,9 @@ section h2 {
 #resume:hover { 
   font-size: 320%;
 }
+
+#foot{
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 1rem;
+}
