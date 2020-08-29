@@ -398,7 +398,7 @@ section h2 {
 } */
 
 /* ensures only 3 projects show on mobile */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 990px) {
   #toHide {
       display: none;
   }
@@ -504,7 +504,7 @@ section h2 {
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 990px) {
   #foot {
       display: none;
   }
