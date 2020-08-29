@@ -397,6 +397,13 @@ section h2 {
   }
 } */
 
+/* ensures only 3 projects show on mobile */
+@media only screen and (max-width: 768px) {
+  #toHide {
+      display: none;
+  }
+}
+
 .zoom {
   /* padding: 50px; */
   transition: transform .2s;
@@ -483,8 +490,25 @@ section h2 {
   font-size: 320%;
 }
 
+/* footer for desktop */
 #foot{
   position: absolute;
   bottom: 0;
   padding-bottom: 1rem;
+}
+
+
+/* footer for mobile */
+#mobilefoot {
+  padding-top: 2rem;
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  #foot {
+      display: none;
+  }
+  #mobilefoot {
+    display: block;
+  }
 }
